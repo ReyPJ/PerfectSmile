@@ -1,27 +1,100 @@
 import React from "react";
 import Image from "next/image";
+import { FaStar } from "react-icons/fa";
 
 const ReviewSection: React.FC = () => {
   return (
-    <div className="h-full flex flex-col justify-center items-center p-5 bg-[#f9f9f9]">
-      <h2 className="text-3xl font-bold text-[#013133] mb-5">Opiniones</h2>
-      <div className="flex gap-10 p-10">
-        <Image
-          className="w-96 rounded-lg shadow-md"
-          src={"/doctorreview.jpg"}
-          alt="Imagen de reseña"
-          width={400}
-          height={400}
-        />
-        <p className="w-96 text-center text-gray-700">
-          Número de unidades: 5
-          <br />
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Justo dis
-          vestibulum platea fringilla aliquet auctor sapien, quis non viverra
-          cum inceptos id. Commodo mollis duis rhoncus justo fames sociis, ante
-          fusce quis senectus nec sem vehicula, platea erat parturient nascetur
-          praesent.
-        </p>
+    <div className="h-full my-10 p-5 bg-white">
+      <h2 className="text-3xl text-center font-bold text-[#013133] mb-5">
+        Reseñas
+      </h2>
+      <div className="flex items-center p-5 gap-10 w-full">
+        <div className="w-1/3 bg-gray-100 p-5 h-auto rounded-xl">
+          <div className="flex mb-3">
+            <FaStar className="text-yellow-500" />
+            <FaStar className="text-yellow-500" />
+            <FaStar className="text-yellow-500" />
+            <FaStar className="text-yellow-500" />
+            <FaStar className="text-yellow-500" />
+          </div>
+          <div className="flex flex-col gap-5">
+            <h3 className="font-bold">&quot;Titulo de la reseña&quot;</h3>
+            <p className="text-gray-600">
+              Reseña como tal, intentar que sea medianamente larga
+            </p>
+            <div className="flex gap-3">
+              <Image
+                src={"/profile.jpg"}
+                alt="profile"
+                width={50}
+                height={50}
+                className="rounded-full aspect-square object-cover"
+              />
+              <div>
+                <h3 className="font-bold">Robert C. Chamber</h3>
+                <p>Doctor</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="w-1/3 bg-gray-100 p-5 h-auto rounded-xl">
+          <div className="flex mb-3">
+            <FaStar className="text-yellow-500" />
+            <FaStar className="text-yellow-500" />
+            <FaStar className="text-yellow-500" />
+            <FaStar className="text-yellow-500" />
+            <FaStar className="text-yellow-500" />
+          </div>
+          <div className="flex flex-col gap-5">
+            <h3 className="font-bold">&quot;Titulo de la reseña&quot;</h3>
+            <p className="text-gray-600">
+              Reseña como tal, intentar que sea medianamente larga
+            </p>
+            <div className="flex gap-3">
+              <Image
+                src={"/profile.jpg"}
+                alt="profile"
+                width={50}
+                height={50}
+                className="rounded-full aspect-square object-cover"
+              />
+              <div>
+                <h3 className="font-bold">Robert C. Chamber</h3>
+                <p>Doctor</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="w-1/3 bg-gray-100 p-5 h-auto rounded-xl">
+          <div className="flex mb-3">
+            <FaStar className="text-yellow-500" />
+            <FaStar className="text-yellow-500" />
+            <FaStar className="text-yellow-500" />
+            <FaStar className="text-yellow-500" />
+            <FaStar className="text-yellow-500" />
+          </div>
+          <div className="flex flex-col gap-5">
+            <h3 className="font-bold">&quot;Titulo de la reseña&quot;</h3>
+            <p className="text-gray-600">
+              Reseña como tal, intentar que sea medianamente larga
+            </p>
+            <div className="flex gap-3">
+              <Image
+                src={"/profile.jpg"}
+                alt="profile"
+                width={50}
+                height={50}
+                className="rounded-full aspect-square object-cover"
+              />
+              <div>
+                <h3 className="font-bold">Robert C. Chamber</h3>
+                <p>Doctor</p>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
   );

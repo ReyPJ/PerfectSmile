@@ -1,32 +1,52 @@
 import React from "react";
-import Link from "next/link";
-import { GrServices } from "react-icons/gr";
+import Image from "next/image";
 
 const ServicesSection: React.FC = () => {
   return (
-    <div className="h-full p-10 bg-white text-[#013133]">
-      <div className="flex flex-col items-center text-center space-y-8">
-        {/* Título de la sección */}
-        <div>
-          <h2 className="text-3xl font-bold mb-2">Nuestros Servicios</h2>
-          <p className="text-lg text-gray-600">Soluciones adaptadas a tus necesidades</p>
-          <Link href={"/"} className="text-[#cbaf77] underline hover:text-[#013133] mt-4">
-            Contáctanos
-          </Link>
+    <div className="h-full my-10 p-5 bg-white">
+      <h2 className="text-3xl text-center font-bold text-[#013133] mb-5">
+        Servicios
+      </h2>
+      <div className="flex bg-orange-500 text-white w-full justify-center gap-36 items-center">
+        <div className="flex flex-col gap-2 w-1/3">
+          <h2 className="text-2xl text-start">
+            Nombre del servicio de forma detallada y{" "}
+            <strong>explicativa</strong> sobre el servicio que se esta
+            ofreciendo
+          </h2>
+          <p className="p-4 bg-black text-lg text-white font-bold text-center">
+            Detalles resumen del servicio, con todos los datos que necesiten
+            estar en este parrafo.
+          </p>
         </div>
-
-        {/* Cards de Servicios */}
-        <div className="flex flex-wrap gap-6 justify-center">
-          {[1, 2, 3, 4, 5, 6, 7, 8].map((_, index) => (
-            <div
-              key={index}
-              className="flex flex-col items-center p-6 w-60 bg-gray-100 rounded-lg shadow-md transform transition-transform hover:scale-105"
-            >
-              <GrServices className="text-4xl text-[#013133] mb-4" />
-              <h3 className="text-xl font-semibold mb-2">Servicio {index + 1}</h3>
-              <p className="text-sm text-gray-500">Descripción breve del servicio.</p>
-            </div>
-          ))}
+        <div>
+          <Image
+            src={"/conference.jpg"}
+            alt="conference"
+            width={500}
+            height={500}
+          />
+        </div>
+      </div>
+      <div className="flex my-3 flex-row-reverse bg-orange-500 text-white w-full justify-center gap-36 items-center">
+        <div className="flex flex-col gap-2 w-1/3">
+          <h2 className="text-2xl text-start">
+            Nombre del servicio de forma detallada y{" "}
+            <strong>explicativa</strong> sobre el servicio que se esta
+            ofreciendo
+          </h2>
+          <p className="p-4 bg-black text-lg text-white font-bold text-center">
+            Detalles resumen del servicio, con todos los datos que necesiten
+            estar en este parrafo.
+          </p>
+        </div>
+        <div>
+          <Image
+            src={"/conference.jpg"}
+            alt="conference"
+            width={500}
+            height={500}
+          />
         </div>
       </div>
     </div>
