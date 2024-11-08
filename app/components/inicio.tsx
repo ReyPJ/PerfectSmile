@@ -4,14 +4,14 @@ import Link from "next/link";
 
 const HomeSection: React.FC = () => {
   return (
-    <div className="h-screen p-5 flex items-center bg-gray-900">
+    <div className="h-[30rem] p-5 flex items-center bg-gray-900">
       <div className="container mx-auto flex flex-col md:flex-row items-center justify-between">
         <div className="text-center md:text-left space-y-4 md:w-1/2">
           <h2 className="text-4xl md:text-5xl font-bold text-[#cbaf77] leading-tight">
-            LOREM IPSUM
+            LOS EXPERTOS
           </h2>
           <h2 className="text-3xl md:text-4xl font-semibold text-[#cbaf77]">
-            FOR LOREM IPT
+            DETRÁS DE CADA SONRISA PERFETCA.
           </h2>
           <Link href="/" className="text-lg text-[#cbaf77] underline hover:text-[#cbaf77]">
             Contáctanos

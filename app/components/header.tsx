@@ -6,7 +6,7 @@ const Header: React.FC = () => {
     <header className="bg-white p-10">
       <div className="flex justify-evenly items-center mx-auto max-w-screen-xl">
         {/* Logo o Título */}
-        <Link href="/" className="text-orange-600 text-2xl font-bold">
+        <Link href="/" className="text-black font-bold uppercase text-md text-2xl font-bold">
           Perfect Smile
         </Link>
         {/* Navegación */}
@@ -15,7 +15,7 @@ const Header: React.FC = () => {
             <li>
               <Link
                 href="/"
-                className="text-orange-600 p-4 rounded-xl hover:text-white hover:bg-fuchsia-600 transition-all delay-75"
+                className="text-black font-bold uppercase text-md p-4 rounded-xl hover:text-white hover:bg-gray-600 transition-all delay-75"
               >
                 Inicio
               </Link>
@@ -23,7 +23,7 @@ const Header: React.FC = () => {
             <li>
               <Link
                 href="/about"
-                className="text-orange-600 p-4 rounded-xl hover:text-white hover:bg-fuchsia-600 transition-all delay-75"
+                className="text-black font-bold uppercase text-md p-4 rounded-xl hover:text-white hover:bg-gray-600 transition-all delay-75"
               >
                 Sobre Nosotros
               </Link>
@@ -31,7 +31,7 @@ const Header: React.FC = () => {
             <li>
               <Link
                 href="/services"
-                className="text-orange-600 p-4 rounded-xl hover:text-white hover:bg-fuchsia-600 transition-all delay-75"
+                className="text-black font-bold uppercase text-md p-4 rounded-xl hover:text-white hover:bg-gray-600 transition-all delay-75"
               >
                 Servicios
               </Link>
@@ -39,7 +39,7 @@ const Header: React.FC = () => {
             <li>
               <Link
                 href="/contact"
-                className="text-orange-600 p-4 rounded-xl hover:text-white hover:bg-fuchsia-600 transition-all delay-75"
+                className="text-black font-bold uppercase text-md p-4 rounded-xl hover:text-white hover:bg-gray-600 transition-all delay-75"
               >
                 Contáctanos
               </Link>

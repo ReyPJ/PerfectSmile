@@ -5,11 +5,11 @@ import { FaStar } from "react-icons/fa";
 const ReviewSection: React.FC = () => {
   return (
     <div className="h-full my-10 p-5 bg-white">
-      <h2 className="text-3xl text-center font-bold text-[#013133] mb-5">
-        Reseñas
+      <h2 className="text-4xl uppercase text-center font-bold text-[#013133] mb-5">
+        Testimonios
       </h2>
       <div className="flex items-center p-5 gap-10 w-full">
-        <div className="w-1/3 bg-gray-100 p-5 h-auto rounded-xl">
+        <div className="w-1/3 bg-gray-100 shadow-lg p-5 h-auto rounded-xl">
           <div className="flex mb-3">
             <FaStar className="text-yellow-500" />
             <FaStar className="text-yellow-500" />
@@ -38,7 +38,7 @@ const ReviewSection: React.FC = () => {
           </div>
         </div>
 
-        <div className="w-1/3 bg-gray-100 p-5 h-auto rounded-xl">
+        <div className="w-1/3 bg-gray-100 p-5 shadow-lg h-auto rounded-xl">
           <div className="flex mb-3">
             <FaStar className="text-yellow-500" />
             <FaStar className="text-yellow-500" />
@@ -67,7 +67,7 @@ const ReviewSection: React.FC = () => {
           </div>
         </div>
 
-        <div className="w-1/3 bg-gray-100 p-5 h-auto rounded-xl">
+        <div className="w-1/3 bg-gray-100 shadow-lg p-5 h-auto rounded-xl">
           <div className="flex mb-3">
             <FaStar className="text-yellow-500" />
             <FaStar className="text-yellow-500" />
