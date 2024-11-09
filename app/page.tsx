@@ -11,7 +11,7 @@ export default function Home() {
     <main>
       <Header />
       <HomeSection />
-      <div className="p-5">
+      <div className="">
         <AboutSection />
         <ServicesSection />
         <ReviewSection />

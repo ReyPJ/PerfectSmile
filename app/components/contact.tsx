@@ -29,7 +29,7 @@ const ContactSection: React.FC = () => {
               className="border border-gray-300 rounded p-2 focus:outline-none focus:border-[#cbaf77]"
               rows={4}
             />
-            <button className="bg-[#013133] text-white p-2 rounded hover:bg-[#cbaf77] transition">
+            <button className="bg-black text-white p-2 rounded hover:bg-[#cbaf77] transition">
               Enviar
             </button>
           </form>

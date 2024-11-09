@@ -5,7 +5,7 @@ import { FaStar } from "react-icons/fa";
 const ReviewSection: React.FC = () => {
   return (
     <div className="h-full my-10 p-5 bg-white">
-      <h2 className="text-4xl uppercase text-center font-bold text-[#013133] mb-5">
+      <h2 className="text-4xl uppercase text-center font-bold text-black mb-5">
         Testimonios
       </h2>
       <div className="flex items-center p-5 gap-10 w-full">
