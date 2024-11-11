@@ -21,7 +21,7 @@ const ServicesSection: React.FC = () => {
         </div>
         <div>
           <Image
-            src={"/conference.jpg"}
+            src={"/servicio1.jpg"}
             alt="conference"
             width={500}
             height={500}
@@ -53,7 +53,7 @@ const ServicesSection: React.FC = () => {
         </div>
         <div>
           <Image
-            src={"/conference.jpg"}
+            src={"/servicio2.jpg"}
             alt="conference"
             width={500}
             height={500}
