@@ -3,21 +3,30 @@ import Image from "next/image";
 
 const AboutSection: React.FC = () => {
   return (
-    <div className="h-full p-5 bg-white text-[#013133]">
+    <div className="h-full p-5 bg-white text-black mt-20">
       <div className="flex flex-col items-center space-y-8">
         <h2 className="text-3xl uppercase md:text-4xl font-bold text-black">
           Nuestro Equipo
         </h2>
 
+        <h3 className="text-2xl uppercase md:text-3xl font-bold text-black">
+          20 años de experiencia en alineadores
+        </h3>
+
         {/* Descripción de equipo */}
-        <p className="max-w-2xl text-center text-lg text-gray-600 mt-6">
-          Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry. Lorem Ipsum has been the industry standard dummy text ever
-          since the 1500s, when an unknown printer took a galley of type and
-          scrambled it to make a type specimen book.
+        <p className="max-w-2xl text-justify text-lg text-black mt-6">
+          Con más de 20 años de experiencia en la industria de los alineadores,
+          hemos construido una sólida reputación por ofrecer asesoría experta y
+          planificación de tratamientos para ortodoncistas de todo el mundo.
+          Nuestro profundo conocimiento y amplia experiencia nos permiten
+          ofrecer soluciones de vanguardia adaptadas a las necesidades únicas de
+          cada paciente. Ya sea que estés tratando casos complejos o
+          tratamientos estándar, nuestra experiencia nos permite guiarte con
+          confianza y precisión, lo que nos convierte en un socio de confianza
+          en tu práctica ortodóntica.
         </p>
 
-        <div className="flex justify-center gap-8">
+        <div className="flex justify-center py-20 gap-8">
           {/* Primer miembro del equipo */}
           <div className="flex flex-col md:flex-row items-center bg-gray-100 p-12 rounded-lg shadow-lg">
             <div className="md:mr-6 mb-4 md:mb-0">
@@ -31,9 +40,14 @@ const AboutSection: React.FC = () => {
             </div>
             <div className="flex flex-col justify-center text-center text-black md:text-left space-y-2 min-h-[150px]">
               <h3 className="text-2xl uppercase font-bold">Diego Araya</h3>
+              <h3 className="text-xl font-bold">
+                Ubicación: Wichita, Kansas, United States.
+              </h3>
               <h4 className="text-md max-w-xs text-start">
-                Ex Especialista en Protocolo Clínico y Diseñador de Tratamientos
-                Dentales en 3D.
+                - Ex Especialista en Protocolo Clínico en Invisalign: brindando
+                asistencia a médicos a nivel mundial.
+                <br />- Ex Diseñador de Tratamientos Dentales en 3D (técnico de
+                tratamiento).
               </h4>
             </div>
           </div>
@@ -51,10 +65,14 @@ const AboutSection: React.FC = () => {
             </div>
             <div className="flex flex-col justify-center text-center md:text-left space-y-2 min-h-[150px]">
               <h3 className="text-2xl uppercase font-bold">Stefanie Francke</h3>
+              <h3 className="text-xl font-bold">
+                Ubicación: Wichita, Kansas, United States.
+              </h3>
               <h4 className="text-md max-w-xs text-start">
-                - Cologne Area, NRW, Germany - Dental Technician - Former
-                Technical and Clinical Specialist for aligners, therapeutic
-                appliances, surgical guides, implant planning (worldwide)
+                - Técnico dental
+                <br /> - Anteriormente Especialista Técnica y Clínica en
+                alineadores, aparatos terapéuticos, guías quirúrgicas,
+                planificación de implantes (a nivel mundial).
               </h4>
             </div>
           </div>

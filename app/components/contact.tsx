@@ -7,7 +7,9 @@ const ContactSection: React.FC = () => {
       <div className="flex gap-10 flex-col md:flex-row mx-10 justify-between items-start">
         {/* Formulario de contacto */}
         <div className="flex flex-col gap-5 w-full md:w-1/2">
-          <h2 className="text-3xl font-bold text-center text-[#013133]">Contáctanos</h2>
+          <h2 className="text-3xl font-bold text-center text-[#013133]">
+            Contáctanos
+          </h2>
           <form className="flex flex-col gap-5 bg-white p-5 rounded-lg shadow-md">
             <input
               type="text"
@@ -38,7 +40,7 @@ const ContactSection: React.FC = () => {
         {/* Métodos de contacto */}
         <div className="flex flex-col gap-5 w-full md:w-1/2 mt-8 md:mt-0">
           <h3 className="text-xl font-semibold text-[#013133]">
-            Tambien nos puedes contactar por:
+            También nos puedes contactar por:
           </h3>
           <div className="flex flex-col gap-4">
             {/* Tarjetas de contacto */}

@@ -6,7 +6,7 @@ const ReviewSection: React.FC = () => {
   return (
     <div className="h-full my-10 p-5 bg-white">
       <h2 className="text-4xl uppercase text-center font-bold text-black mb-5">
-        Testimonios
+        Lo que piensan nuestros clientes
       </h2>
       <div className="flex items-center p-5 gap-10 w-full">
         <div className="w-1/3 bg-gray-100 shadow-lg p-5 h-auto rounded-xl">
