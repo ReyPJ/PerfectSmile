@@ -42,6 +42,7 @@ export default function Home() {
           <EnHomeSection />
           <EnAboutSection />
           <EnServicesSection />
+          <ReviewSection />
           <EnContactSection />
           <EnFooter />
         </>

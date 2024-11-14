@@ -17,9 +17,9 @@ const EnHomeSection: React.FC = () => {
           <Image
             src="/inicioimagen.jpg"
             alt="image"
-            width={600}
-            height={500}
-            className="rounded-lg"
+            width={700}
+            height={700}
+            className=""
           />
         </div>
       </div>

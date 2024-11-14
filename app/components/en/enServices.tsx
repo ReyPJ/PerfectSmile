@@ -7,8 +7,8 @@ const EnServicesSection: React.FC = () => {
       <h2 className="text-4xl uppercase text-center font-bold text-black mb-5">
         Our Services
       </h2>
-      <div className="flex bg-orange-500 text-white w-full justify-center gap-36 items-center">
-        <div className="flex flex-col gap-2 w-1/3">
+      <div className="flex flex-col sm:flex-row bg-orange-500 text-white w-full justify-center gap-10 sm:gap-36 items-center">
+        <div className="flex flex-col gap-2 w-full sm:w-1/3">
           <h2 className="text-2xl text-start">
             Customized <strong>Orthodontic</strong> Treatment Planning.
           </h2>
@@ -18,28 +18,29 @@ const EnServicesSection: React.FC = () => {
             align teeth efficiently and comfortably.
           </p>
         </div>
-        <div>
+        <div className="w-full sm:w-1/3">
           <Image
             src={"/servicio1.jpg"}
             alt="conference"
             width={500}
             height={500}
+            layout="responsive"
           />
         </div>
       </div>
+
       <div className="text-lg flex flex-col gap-10 p-10 my-20">
         <p>
-          Contrary to popular belief, Lorem Ipsum is not simply random text. It
-          has roots in a piece of classical Latin literature from 45 BC, making
-          it over 2000 years old. Richard McClintock, a Latin professor at
-          Hampden-Sydney College in Virginia, looked up one of the more obscure
-          Latin words, consectetur, from a Lorem Ipsum passage, and going
-          through the cites of the word in classical literature, discovered the
-          undoubtable source.
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
         </p>
       </div>
-      <div className="flex mt-28 mb-5 flex-row-reverse bg-blue-500 text-white w-full justify-center gap-36 items-center">
-        <div className="flex flex-col gap-2 w-1/3">
+
+      <div className="flex flex-col sm:flex-row-reverse mt-28 mb-5 bg-blue-500 text-white w-full justify-center gap-10 sm:gap-36 items-center">
+        <div className="flex flex-col gap-2 w-full sm:w-1/3">
           <h2 className="text-2xl text-start">
             Real-Time Orthodontic <strong>Expert</strong> Consultation
           </h2>
@@ -50,28 +51,29 @@ const EnServicesSection: React.FC = () => {
             immediate consultations via WhatsApp, Telegram, Signal, or Zoom.
           </p>
         </div>
-        <div>
+        <div className="w-full sm:w-1/3">
           <Image
             src={"/servicio2.jpg"}
             alt="conference"
             width={500}
             height={500}
+            layout="responsive"
           />
         </div>
       </div>
+
       <div className="text-lg flex flex-col gap-10 p-10 my-20">
         <p>
-          Contrary to popular belief, Lorem Ipsum is not simply random text. It
-          has roots in a piece of classical Latin literature from 45 BC, making
-          it over 2000 years old. Richard McClintock, a Latin professor at
-          Hampden-Sydney College in Virginia, looked up one of the more obscure
-          Latin words, consectetur, from a Lorem Ipsum passage, and going
-          through the cites of the word in classical literature, discovered the
-          undoubtable source.
+          <br />
+          <br />
+          <br />
+          <br />
+          <br />
         </p>
       </div>
-      <div className="flex mt-28 mb-5 bg-orange-500 text-white w-full justify-center gap-36 items-center">
-        <div className="flex flex-col gap-2 w-1/3">
+
+      <div className="flex flex-col sm:flex-row mt-28 mb-5 bg-orange-500 text-white w-full justify-center gap-10 sm:gap-36 items-center">
+        <div className="flex flex-col gap-2 w-full sm:w-1/3">
           <h2 className="text-2xl text-start">
             Review and Adjustment of <strong>Ongoing</strong> Treatment Plans.
           </h2>
@@ -82,24 +84,23 @@ const EnServicesSection: React.FC = () => {
             remotely, without interrupting the practice’s workflow.
           </p>
         </div>
-        <div>
+        <div className="w-full sm:w-1/3">
           <Image
             src={"/service3.jpg"}
             alt="conference"
             width={500}
             height={500}
+            layout="responsive"
           />
         </div>
       </div>
+
       <div className="text-lg flex flex-col gap-10 p-10 my-20">
         <p>
-          Contrary to popular belief, Lorem Ipsum is not simply random text. It
-          has roots in a piece of classical Latin literature from 45 BC, making
-          it over 2000 years old. Richard McClintock, a Latin professor at
-          Hampden-Sydney College in Virginia, looked up one of the more obscure
-          Latin words, consectetur, from a Lorem Ipsum passage, and going
-          through the cites of the word in classical literature, discovered the
-          undoubtable source.
+          <br />
+          <br />
+          <br />
+          <br />
         </p>
       </div>
     </div>

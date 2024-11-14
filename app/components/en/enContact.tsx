@@ -23,9 +23,19 @@ const EnContactSection: React.FC = () => {
             />
             <input
               type="email"
-              placeholder="Email addres"
+              placeholder="Email address"
               className="border border-gray-300 rounded p-2 focus:outline-none focus:border-[#cbaf77]"
             />
+            <select
+              className="border border-gray-300 rounded p-2 focus:outline-none focus:border-[#cbaf77]"
+              defaultValue=""
+            >
+              <option value="" disabled>
+                Select your country
+              </option>
+              <option value="us">United States</option>
+              <option value="de">Germany</option>
+            </select>
             <textarea
               placeholder="How can we help you?"
               className="border border-gray-300 rounded p-2 focus:outline-none focus:border-[#cbaf77]"

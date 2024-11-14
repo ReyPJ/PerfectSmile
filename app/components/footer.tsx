@@ -8,13 +8,13 @@ const Footer: React.FC = () => {
       <div className="max-w-screen-xl mx-auto flex flex-col md:flex-row justify-between gap-10">
         {/* Información de la Empresa */}
         <div className="flex flex-col items-center md:items-start text-center md:text-left">
-          <h3 className="text-2xl font-bold">Dental Care</h3>
+          <h3 className="text-2xl font-bold">Perfect Smile</h3>
           <p className="mt-2 max-w-md">
             Su salud bucal es nuestra prioridad. Nos dedicamos a ofrecer
             servicios de calidad y confianza.
           </p>
           <p className="mt-4 text-gray-400">
-            © {new Date().getFullYear()} Dental Care. Todos los derechos
+            © {new Date().getFullYear()} Perfect Smile. Todos los derechos
             reservados.
           </p>
         </div>

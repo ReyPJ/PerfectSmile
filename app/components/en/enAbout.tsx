@@ -10,7 +10,7 @@ const EnAboutSection: React.FC = () => {
         </h2>
 
         <h3 className="text-2xl uppercase md:text-3xl font-bold text-black">
-          20 Years of Expertise in Aligners
+          Almost 10 Years of Expertise in Aligners
         </h3>
 
         {/* Descripción de equipo */}
@@ -27,10 +27,10 @@ const EnAboutSection: React.FC = () => {
           precision, making us a trusted partner in your orthodontic practice.
         </p>
 
-        <div className="flex justify-center py-20 gap-8">
+        <div className="flex flex-col items-center py-20 gap-8">
           {/* Primer miembro del equipo */}
-          <div className="flex flex-col md:flex-row items-center bg-gray-100 p-12 rounded-lg shadow-lg">
-            <div className="md:mr-6 mb-4 md:mb-0">
+          <div className="flex flex-col items-center bg-gray-100 p-12 rounded-lg shadow-lg w-full md:w-1/2">
+            <div className="mb-4">
               <Image
                 src="/profile.jpg"
                 alt="Dentista"
@@ -39,23 +39,23 @@ const EnAboutSection: React.FC = () => {
                 className="rounded"
               />
             </div>
-            <div className="flex flex-col justify-center text-center text-black md:text-left space-y-2 min-h-[150px]">
+            <div className="flex flex-col justify-center text-center text-black space-y-2">
               <h3 className="text-2xl uppercase font-bold">Diego Araya</h3>
               <h3 className="text-xl font-bold">
-                Ubicación: Wichita, Kansas, United States.
+                Location: Wichita, Kansas, United States.
               </h3>
-              <h4 className="text-md max-w-xs text-start">
-                - Ex Especialista en Protocolo Clínico en Invisalign: brindando
-                asistencia a médicos a nivel mundial.
-                <br />- Ex Diseñador de Tratamientos Dentales en 3D (técnico de
-                tratamiento).
+              <h4 className="text-md text-start">
+                - Former Clinical Protocol Specialist at Invisalign: providing
+                assistance to doctors worldwide.
+                <br />- Former 3D Dental Treatment Designer (treatment
+                technician).
               </h4>
             </div>
           </div>
 
-          {/* Segundo miembro del equipo (invertido) */}
-          <div className="flex flex-col md:flex-row-reverse items-center bg-orange-500 p-12 rounded-lg shadow-lg text-white">
-            <div className="md:ml-6 mb-4 md:mb-0">
+          {/* Segundo miembro del equipo */}
+          <div className="flex flex-col items-center bg-orange-500 p-12 rounded-lg shadow-lg text-white w-full md:w-1/2">
+            <div className="mb-4">
               <Image
                 src="/profile.jpg"
                 alt="Dentista"
@@ -64,16 +64,16 @@ const EnAboutSection: React.FC = () => {
                 className="rounded"
               />
             </div>
-            <div className="flex flex-col justify-center text-center md:text-left space-y-2 min-h-[150px]">
+            <div className="flex flex-col justify-center text-center text-white space-y-2">
               <h3 className="text-2xl uppercase font-bold">Stefanie Francke</h3>
               <h3 className="text-xl font-bold">
-                Ubicación: Wichita, Kansas, United States.
+                Location: Cologne Area, NRW, Germany.
               </h3>
-              <h4 className="text-md max-w-xs text-start">
-                - Técnico dental
-                <br /> - Anteriormente Especialista Técnica y Clínica en
-                alineadores, aparatos terapéuticos, guías quirúrgicas,
-                planificación de implantes (a nivel mundial).
+              <h4 className="text-md text-start">
+                - Dental Technician
+                <br /> - Former Technical and Clinical Specialist in aligners,
+                therapeutic appliances, surgical guides, implant planning
+                (worldwide).
               </h4>
             </div>
           </div>

@@ -26,6 +26,16 @@ const ContactSection: React.FC = () => {
               placeholder="Email"
               className="border border-gray-300 rounded p-2 focus:outline-none focus:border-[#cbaf77]"
             />
+            <select
+              className="border border-gray-300 rounded p-2 focus:outline-none focus:border-[#cbaf77]"
+              defaultValue=""
+            >
+              <option value="" disabled>
+                Selecciona tu país
+              </option>
+              <option value="us">Estados Unidos</option>
+              <option value="de">Alemania</option>
+            </select>
             <textarea
               placeholder="¿Cómo te podemos ayudar?"
               className="border border-gray-300 rounded p-2 focus:outline-none focus:border-[#cbaf77]"
