@@ -4,7 +4,7 @@ import { FaFacebookF, FaLinkedinIn, FaTwitter } from "react-icons/fa";
 
 const EnFooter: React.FC = () => {
   return (
-    <footer className="bg-black text-white py-10 px-5">
+    <footer className="bg-bluebg text-white py-10 px-5">
       <div className="max-w-screen-xl mx-auto flex flex-col md:flex-row justify-between gap-10">
         {/* Información de la Empresa */}
         <div className="flex flex-col items-center md:items-start text-center md:text-left">

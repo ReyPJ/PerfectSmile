@@ -31,7 +31,7 @@ const ReviewSection: React.FC = () => {
                 className="rounded-full aspect-square object-cover"
               />
               <div>
-                <h3 className="font-bold">Robert C. Chamber</h3>
+                <h3 className="font-bold">Nombre</h3>
                 <p>Doctor</p>
               </div>
             </div>

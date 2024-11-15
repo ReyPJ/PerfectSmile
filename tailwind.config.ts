@@ -8,6 +8,10 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      colors: {
+        "bluebg": "#017f7b",
+        "orangebg": "#e1a600",
+      }
     },
   },
   plugins: [],

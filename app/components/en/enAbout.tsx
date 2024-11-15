@@ -15,7 +15,7 @@ const EnAboutSection: React.FC = () => {
 
         {/* Descripción de equipo */}
         <p className="max-w-2xl text-justify text-lg text-black mt-6">
-          With over 20 years of experience in the aligner industry, we have
+          With almost 10 years of experience in the aligner industry, we have
           built a solid reputation for providing expert consultation and
           treatment planning for orthodontists worldwide. Our deep knowledge and
           extensive experience enable us to offer cutting-edge solutions
@@ -32,7 +32,7 @@ const EnAboutSection: React.FC = () => {
           <div className="flex flex-col items-center bg-gray-100 p-12 rounded-lg shadow-lg w-full md:w-1/2">
             <div className="mb-4">
               <Image
-                src="/profile.jpg"
+                src="/"
                 alt="Dentista"
                 width={270}
                 height={200}
@@ -54,10 +54,10 @@ const EnAboutSection: React.FC = () => {
           </div>
 
           {/* Segundo miembro del equipo */}
-          <div className="flex flex-col items-center bg-orange-500 p-12 rounded-lg shadow-lg text-white w-full md:w-1/2">
+          <div className="flex flex-col items-center bg-orangebg p-12 rounded-lg shadow-lg text-white w-full md:w-1/2">
             <div className="mb-4">
               <Image
-                src="/profile.jpg"
+                src="/"
                 alt="Dentista"
                 width={270}
                 height={200}

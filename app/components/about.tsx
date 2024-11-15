@@ -15,7 +15,7 @@ const AboutSection: React.FC = () => {
 
         {/* Descripción de equipo */}
         <p className="max-w-2xl text-justify text-lg text-black mt-6">
-          Con más de 20 años de experiencia en la industria de los alineadores,
+          Con casi 10 años de experiencia en la industria de los alineadores,
           hemos construido una sólida reputación por ofrecer asesoría experta y
           planificación de tratamientos para ortodoncistas de todo el mundo.
           Nuestro profundo conocimiento y amplia experiencia nos permiten
@@ -31,7 +31,7 @@ const AboutSection: React.FC = () => {
           <div className="flex flex-col items-center bg-gray-100 p-12 rounded-lg shadow-lg">
             <div className="mb-4">
               <Image
-                src="/profile.jpg"
+                src={"/"}
                 alt="Dentista"
                 width={270}
                 height={200}
@@ -53,10 +53,10 @@ const AboutSection: React.FC = () => {
           </div>
 
           {/* Segundo miembro del equipo */}
-          <div className="flex flex-col items-center bg-orange-500 p-12 rounded-lg shadow-lg text-white">
+          <div className="flex flex-col items-center bg-orangebg p-12 rounded-lg shadow-lg text-white">
             <div className="mb-4">
               <Image
-                src="/profile.jpg"
+                src={"/"}
                 alt="Dentista"
                 width={270}
                 height={200}
@@ -66,7 +66,7 @@ const AboutSection: React.FC = () => {
             <div className="flex flex-col justify-center text-center text-white space-y-2 min-h-[150px]">
               <h3 className="text-2xl uppercase font-bold">Stefanie Francke</h3>
               <h3 className="text-xl font-bold">
-                Ubicación: Wichita, Kansas, United States.
+                Ubicación: Colonia, NRW, Alemania.
               </h3>
               <h4 className="text-md max-w-xs text-start">
                 - Técnico dental

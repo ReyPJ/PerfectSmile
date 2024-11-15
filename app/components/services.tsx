@@ -7,7 +7,7 @@ const ServicesSection: React.FC = () => {
       <h2 className="text-4xl uppercase text-center font-bold text-black mb-5">
         Nuestros Servicios
       </h2>
-      <div className="flex flex-col sm:flex-row bg-orange-500 text-white w-full justify-center gap-10 sm:gap-36 items-center">
+      <div className="flex flex-col sm:flex-row bg-bluebg text-white w-full justify-center gap-10 sm:gap-36 items-center">
         <div className="flex flex-col gap-2 w-full sm:w-1/3">
           <h2 className="text-2xl text-start">
             Planificación de Tratamientos de <strong>Ortodoncia</strong>{" "}
@@ -41,7 +41,7 @@ const ServicesSection: React.FC = () => {
         </p>
       </div>
 
-      <div className="flex flex-col sm:flex-row-reverse mt-28 mb-5 bg-blue-500 text-white w-full justify-center gap-10 sm:gap-36 items-center">
+      <div className="flex flex-col sm:flex-row-reverse mt-28 mb-5 bg-orangebg text-white w-full justify-center gap-10 sm:gap-36 items-center">
         <div className="flex flex-col gap-2 w-full sm:w-1/3">
           <h2 className="text-2xl text-start">
             Asesoría en Tiempo Real de <strong>expertos</strong> en Ortodoncia
@@ -75,7 +75,7 @@ const ServicesSection: React.FC = () => {
         </p>
       </div>
 
-      <div className="flex flex-col sm:flex-row mt-28 mb-5 bg-orange-500 text-white w-full justify-center gap-10 sm:gap-36 items-center">
+      <div className="flex flex-col sm:flex-row mt-28 mb-5 bg-bluebg text-white w-full justify-center gap-10 sm:gap-36 items-center">
         <div className="flex flex-col gap-2 w-full sm:w-1/3">
           <h2 className="text-2xl text-start">
             Revisión y Ajuste de Planes de en Curso <strong>Tratamiento</strong>{" "}
