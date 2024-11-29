@@ -29,8 +29,9 @@ const EnAboutSection: React.FC = () => {
 
         <div className="flex flex-col items-center py-20 gap-8">
           {/* Primer miembro del equipo */}
-          <div className="flex flex-col items-center bg-gray-100 p-12 rounded-lg shadow-lg w-full md:w-1/2">
+          <div className="flex flex-col items-center bg-bluebg p-12 rounded-lg shadow-lg w-full md:w-1/2">
             <div className="mb-4">
+              {/* 
               <Image
                 src="/"
                 alt="Dentista"
@@ -38,6 +39,7 @@ const EnAboutSection: React.FC = () => {
                 height={200}
                 className="rounded"
               />
+              */}
             </div>
             <div className="flex flex-col justify-center text-center text-black space-y-2">
               <h3 className="text-2xl uppercase font-bold">Diego Araya</h3>
@@ -56,6 +58,7 @@ const EnAboutSection: React.FC = () => {
           {/* Segundo miembro del equipo */}
           <div className="flex flex-col items-center bg-orangebg p-12 rounded-lg shadow-lg text-white w-full md:w-1/2">
             <div className="mb-4">
+              {/* 
               <Image
                 src="/"
                 alt="Dentista"
@@ -63,6 +66,7 @@ const EnAboutSection: React.FC = () => {
                 height={200}
                 className="rounded"
               />
+              */}
             </div>
             <div className="flex flex-col justify-center text-center text-white space-y-2">
               <h3 className="text-2xl uppercase font-bold">Stefanie Francke</h3>

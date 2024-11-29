@@ -9,7 +9,7 @@ const EnServicesSection: React.FC = () => {
       </h2>
       <div className="flex flex-col sm:flex-row bg-bluebg text-white w-full justify-center gap-10 sm:gap-36 items-center">
         <div className="flex flex-col gap-2 w-full sm:w-1/3">
-          <h2 className="text-2xl text-start">
+          <h2 className="text-2xl text-center">
             Customized <strong>Orthodontic</strong> Treatment Planning.
           </h2>
           <p className="p-4 bg-black text-lg text-white font-bold text-justify">
@@ -33,15 +33,12 @@ const EnServicesSection: React.FC = () => {
         <p>
           <br />
           <br />
-          <br />
-          <br />
-          <br />
         </p>
       </div>
 
       <div className="flex flex-col sm:flex-row-reverse mt-28 mb-5 bg-orangebg text-white w-full justify-center gap-10 sm:gap-36 items-center">
         <div className="flex flex-col gap-2 w-full sm:w-1/3">
-          <h2 className="text-2xl text-start">
+          <h2 className="text-2xl text-center">
             Real-Time Orthodontic <strong>Expert</strong> Consultation
           </h2>
           <p className="p-4 bg-black text-lg text-white font-bold text-justify">
@@ -66,15 +63,12 @@ const EnServicesSection: React.FC = () => {
         <p>
           <br />
           <br />
-          <br />
-          <br />
-          <br />
         </p>
       </div>
 
       <div className="flex flex-col sm:flex-row mt-28 mb-5 bg-bluebg text-white w-full justify-center gap-10 sm:gap-36 items-center">
         <div className="flex flex-col gap-2 w-full sm:w-1/3">
-          <h2 className="text-2xl text-start">
+          <h2 className="text-2xl text-center">
             Review and Adjustment of <strong>Ongoing</strong> Treatment Plans.
           </h2>
           <p className="p-4 bg-black text-lg text-white font-bold text-justify">
@@ -97,8 +91,6 @@ const EnServicesSection: React.FC = () => {
 
       <div className="text-lg flex flex-col gap-10 p-10 my-20">
         <p>
-          <br />
-          <br />
           <br />
           <br />
         </p>

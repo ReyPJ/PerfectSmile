@@ -9,7 +9,7 @@ const ServicesSection: React.FC = () => {
       </h2>
       <div className="flex flex-col sm:flex-row bg-bluebg text-white w-full justify-center gap-10 sm:gap-36 items-center">
         <div className="flex flex-col gap-2 w-full sm:w-1/3">
-          <h2 className="text-2xl text-start">
+          <h2 className="text-2xl text-center">
             Planificación de Tratamientos de <strong>Ortodoncia</strong>{" "}
             Personalizada.
           </h2>
@@ -35,15 +35,12 @@ const ServicesSection: React.FC = () => {
         <p>
           <br />
           <br />
-          <br />
-          <br />
-          <br />
         </p>
       </div>
 
       <div className="flex flex-col sm:flex-row-reverse mt-28 mb-5 bg-orangebg text-white w-full justify-center gap-10 sm:gap-36 items-center">
         <div className="flex flex-col gap-2 w-full sm:w-1/3">
-          <h2 className="text-2xl text-start">
+          <h2 className="text-2xl text-center">
             Asesoría en Tiempo Real de <strong>expertos</strong> en Ortodoncia
           </h2>
           <p className="p-4 bg-black text-lg text-white font-bold text-justify">
@@ -69,15 +66,12 @@ const ServicesSection: React.FC = () => {
         <p>
           <br />
           <br />
-          <br />
-          <br />
-          <br />
         </p>
       </div>
 
       <div className="flex flex-col sm:flex-row mt-28 mb-5 bg-bluebg text-white w-full justify-center gap-10 sm:gap-36 items-center">
         <div className="flex flex-col gap-2 w-full sm:w-1/3">
-          <h2 className="text-2xl text-start">
+          <h2 className="text-2xl text-center">
             Revisión y Ajuste de Planes de en Curso <strong>Tratamiento</strong>{" "}
             en Ortodoncia.
           </h2>
@@ -102,8 +96,6 @@ const ServicesSection: React.FC = () => {
 
       <div className="text-lg flex flex-col gap-10 p-10 my-20">
         <p>
-          <br />
-          <br />
           <br />
           <br />
         </p>

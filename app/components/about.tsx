@@ -28,20 +28,22 @@ const AboutSection: React.FC = () => {
 
         <div className="flex flex-col justify-center py-20 gap-8">
           {/* Primer miembro del equipo */}
-          <div className="flex flex-col items-center bg-gray-100 p-12 rounded-lg shadow-lg">
+          <div className="flex flex-col items-center bg-bluebg p-12 rounded-lg shadow-lg">
             <div className="mb-4">
+              {/* 
               <Image
-                src={"/"}
+                src="/"
                 alt="Dentista"
                 width={270}
                 height={200}
                 className="rounded"
               />
+              */}
             </div>
             <div className="flex flex-col justify-center text-center text-black space-y-2 min-h-[150px]">
               <h3 className="text-2xl uppercase font-bold">Diego Araya</h3>
               <h3 className="text-xl font-bold">
-                Ubicación: Wichita, Kansas, United States.
+                Ubicación: Wichita, Kansas, Estados Unidos.
               </h3>
               <h4 className="text-md max-w-xs text-start">
                 - Ex Especialista en Protocolo Clínico en Invisalign: brindando
@@ -55,13 +57,15 @@ const AboutSection: React.FC = () => {
           {/* Segundo miembro del equipo */}
           <div className="flex flex-col items-center bg-orangebg p-12 rounded-lg shadow-lg text-white">
             <div className="mb-4">
+              {/* 
               <Image
-                src={"/"}
+                src="/"
                 alt="Dentista"
                 width={270}
                 height={200}
                 className="rounded"
               />
+              */}
             </div>
             <div className="flex flex-col justify-center text-center text-white space-y-2 min-h-[150px]">
               <h3 className="text-2xl uppercase font-bold">Stefanie Francke</h3>

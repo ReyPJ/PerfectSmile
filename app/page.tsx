@@ -15,7 +15,7 @@ import EnContactSection from "./components/en/enContact";
 import EnFooter from "./components/en/enFooter";
 
 export default function Home() {
-  const [idioma, setIdioma] = useState<"es" | "en">("es");
+  const [idioma, setIdioma] = useState<"es" | "en">("en");
 
   useEffect(() => {
     const savedIdioma = localStorage.getItem("idioma");
@@ -32,7 +32,9 @@ export default function Home() {
           <HomeSection />
           <AboutSection />
           <ServicesSection />
+          {/*
           <ReviewSection />
+          */}
           <ContactSection />
           <Footer />
         </>
@@ -42,7 +44,9 @@ export default function Home() {
           <EnHomeSection />
           <EnAboutSection />
           <EnServicesSection />
+          {/*
           <ReviewSection />
+          */}
           <EnContactSection />
           <EnFooter />
         </>

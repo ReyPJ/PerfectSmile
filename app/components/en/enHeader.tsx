@@ -23,7 +23,7 @@ const EnHeader: React.FC = () => {
   return (
     <header className="bg-white p-10 relative z-10">
       <div className="flex justify-between items-center mx-auto max-w-screen-xl">
-        <Image src={"/logocua.png"} alt="Logo" width={200} height={200} />
+        <Image src={"/cuadrada.png"} alt="Logo" width={200} height={200} />
 
         {/* Hamburger Menu Icon */}
         <div className="md:hidden">

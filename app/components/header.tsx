@@ -23,7 +23,7 @@ const Header: React.FC = () => {
   return (
     <header className="bg-white p-6 relative z-10">
       <div className="flex items-center justify-between max-w-screen-xl mx-auto">
-        <Image src={"/logocua.png"} alt="Logo" width={150} height={150} />
+        <Image src={"/cuadrada.png"} alt="Logo" width={150} height={150} />
 
         {/* Hamburger Menu Icon */}
         <div className="md:hidden">
