@@ -4,24 +4,24 @@ import Link from "next/link";
 import Image from "next/image";
 
 const EnHeader: React.FC = () => {
-  const [idioma, setIdioma] = useState<"es" | "en">("es");
+  const [idioma, setIdioma] = useState<"es" | "en" | "ger">("es");
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   useEffect(() => {
     const savedIdioma = localStorage.getItem("idioma");
     if (savedIdioma === "es" || savedIdioma === "en") {
-      setIdioma(savedIdioma as "es" | "en");
+      setIdioma(savedIdioma as "es" | "en" | "ger");
     }
   }, []);
 
-  const handleIdiomaChange = (lang: "es" | "en") => {
+  const handleIdiomaChange = (lang: "es" | "en" | "ger") => {
     localStorage.setItem("idioma", lang);
     setIdioma(lang);
     window.location.reload(); // Refrescar para cargar el idioma seleccionado
   };
 
   return (
-    <header className="bg-white p-10 relative z-10">
+    <header className="bg-white p-6 relative z-10">
       <div className="flex justify-between items-center mx-auto max-w-screen-xl">
         <Image src={"/cuadrada.png"} alt="Logo" width={200} height={200} />
 
@@ -86,6 +86,12 @@ const EnHeader: React.FC = () => {
             className={`font-bold ${idioma === "en" ? "underline" : ""}`}
           >
             🇺🇸 English
+          </button>
+          <button
+            onClick={() => handleIdiomaChange("ger")}
+            className={`font-bold ${idioma === "ger" ? "underline" : ""}`}
+          >
+            🇩🇪 Deutsch
           </button>
         </div>
       </div>

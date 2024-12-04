@@ -4,17 +4,17 @@ import Link from "next/link";
 import Image from "next/image";
 
 const Header: React.FC = () => {
-  const [idioma, setIdioma] = useState<"es" | "en">("es");
+  const [idioma, setIdioma] = useState<"es" | "en" | "ger">("es");
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   useEffect(() => {
     const savedIdioma = localStorage.getItem("idioma");
     if (savedIdioma === "es" || savedIdioma === "en") {
-      setIdioma(savedIdioma as "es" | "en");
+      setIdioma(savedIdioma as "es" | "en" | "ger");
     }
   }, []);
 
-  const handleIdiomaChange = (lang: "es" | "en") => {
+  const handleIdiomaChange = (lang: "es" | "en" | "ger") => {
     localStorage.setItem("idioma", lang);
     setIdioma(lang);
     window.location.reload();
@@ -86,6 +86,12 @@ const Header: React.FC = () => {
             className={`font-bold ${idioma === "en" ? "underline" : ""}`}
           >
             🇺🇸 English
+          </button>
+          <button
+            onClick={() => handleIdiomaChange("ger")}
+            className={`font-bold ${idioma === "ger" ? "underline" : ""}`}
+          >
+            🇩🇪 Deutsch
           </button>
         </div>
       </div>

@@ -77,6 +77,7 @@ const EnAboutSection: React.FC = () => {
                 <br /> - Former Technical and Clinical Specialist in aligners,
                 therapeutic appliances, surgical guides, implant planning
                 (worldwide).
+                <br />- Trainer for medical devices and software applications.
               </h4>
             </div>
           </div>
