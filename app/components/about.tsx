@@ -69,13 +69,17 @@ const AboutSection: React.FC = () => {
             <div className="flex flex-col justify-center text-center text-white space-y-2 min-h-[150px]">
               <h3 className="text-2xl uppercase font-bold">Stefanie Francke</h3>
               <h3 className="text-xl font-bold">
-                Ubicación: Colonia, NRW, Alemania.
+                Ubicación: Zona de Colonia,
+                <br /> Renania del Norte-Westfalia, Alemania.
               </h3>
               <h4 className="text-md max-w-xs text-start">
                 - Técnico dental
-                <br /> - Anteriormente Especialista Técnica y Clínica en
-                alineadores, aparatos terapéuticos, guías quirúrgicas,
-                planificación de implantes (a nivel mundial).
+                <br />
+                - Ex-especislista técnico y clínico en alineadores, aparatos
+                terapéuticos, guías quirúrgicas, planificación de implantes (a
+                nivel mundial)
+                <br />- Formadora en dispositivos médicos y aplicaciones de
+                software
               </h4>
             </div>
           </div>

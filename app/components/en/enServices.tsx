@@ -12,7 +12,7 @@ const EnServicesSection: React.FC = () => {
           <h2 className="text-2xl text-center">
             Customized <strong>Orthodontic</strong> Treatment Planning.
           </h2>
-          <p className="p-4 bg-black text-lg text-white font-bold text-justify">
+          <p className="p-4 bg-black text-lg text-white text-justify">
             We help dentists create fully personalized treatment plans based on
             a thorough analysis of each case. Our planning includes options to
             align teeth efficiently and comfortably.
@@ -28,20 +28,12 @@ const EnServicesSection: React.FC = () => {
           />
         </div>
       </div>
-
-      <div className="text-lg flex flex-col gap-10 p-10 my-20">
-        <p>
-          <br />
-          <br />
-        </p>
-      </div>
-
       <div className="flex flex-col sm:flex-row-reverse mt-28 mb-5 bg-orangebg text-white w-full justify-center gap-10 sm:gap-36 items-center">
         <div className="flex flex-col gap-2 w-full sm:w-1/3">
           <h2 className="text-2xl text-center">
             Real-Time Orthodontic <strong>Expert</strong> Consultation
           </h2>
-          <p className="p-4 bg-black text-lg text-white font-bold text-justify">
+          <p className="p-4 bg-black text-lg text-white text-justify">
             We offer real-time consultations with our orthodontic experts.
             Whether you need help with a complicated case or simply a second
             opinion on a treatment plan, our specialists are available for
@@ -58,20 +50,12 @@ const EnServicesSection: React.FC = () => {
           />
         </div>
       </div>
-
-      <div className="text-lg flex flex-col gap-10 p-10 my-20">
-        <p>
-          <br />
-          <br />
-        </p>
-      </div>
-
       <div className="flex flex-col sm:flex-row mt-28 mb-5 bg-bluebg text-white w-full justify-center gap-10 sm:gap-36 items-center">
         <div className="flex flex-col gap-2 w-full sm:w-1/3">
           <h2 className="text-2xl text-center">
             Review and Adjustment of <strong>Ongoing</strong> Treatment Plans.
           </h2>
-          <p className="p-4 bg-black text-lg text-white font-bold text-justify">
+          <p className="p-4 bg-black text-lg text-white text-justify">
             We offer the opportunity to review and adjust orthodontic treatment
             plans that are already in progress. Our experts assess the progress
             and suggest modifications to maximize efficiency and results, all
@@ -87,13 +71,6 @@ const EnServicesSection: React.FC = () => {
             layout="responsive"
           />
         </div>
-      </div>
-
-      <div className="text-lg flex flex-col gap-10 p-10 my-20">
-        <p>
-          <br />
-          <br />
-        </p>
       </div>
     </div>
   );

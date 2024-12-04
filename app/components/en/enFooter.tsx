@@ -1,6 +1,6 @@
 import React from "react";
 import Link from "next/link";
-import { FaFacebookF } from "react-icons/fa";
+import { FaFacebookF, FaInstagram } from "react-icons/fa";
 
 const EnFooter: React.FC = () => {
   return (
@@ -9,17 +9,16 @@ const EnFooter: React.FC = () => {
         {/* Información de la Empresa */}
         <div className="flex flex-col items-center md:items-start text-center md:text-left">
           <h3 className="text-2xl font-bold">Perfect Smile Experts</h3>
-          <p className="mt-2 max-w-md">
-            Where Smile Meets Expertise
-          </p>
+          <p className="mt-2 max-w-md">Where Smile Meets Expertise</p>
           <p className="mt-4 text-gray-400">
-            © {new Date().getFullYear()} Perfect Smile Experts. All Right Reserved.
+            © {new Date().getFullYear()} Perfect Smile Experts. All Right
+            Reserved.
           </p>
         </div>
 
         {/* Enlaces Rápidos */}
         <div className="flex flex-col items-center md:items-start">
-          <h4 className="text-lg font-semibold">Quick Us</h4>
+          <h4 className="text-lg font-semibold">Quick Links</h4>
           <ul className="mt-2 space-y-2">
             <li>
               <Link href="/" className="hover:text-[#cbaf77]">
@@ -50,6 +49,9 @@ const EnFooter: React.FC = () => {
           <div className="flex space-x-4 mt-3">
             <Link href="https://facebook.com">
               <FaFacebookF className="hover:text-[#cbaf77] text-2xl" />
+            </Link>
+            <Link href="https://instagram.com">
+              <FaInstagram className="hover:text-[#cbaf77] text-2xl" />
             </Link>
           </div>
         </div>

@@ -1,6 +1,6 @@
 import React from "react";
 import Link from "next/link";
-import { FaFacebookF } from "react-icons/fa";
+import { FaFacebookF, FaInstagram } from "react-icons/fa";
 
 const Footer: React.FC = () => {
   return (
@@ -51,6 +51,9 @@ const Footer: React.FC = () => {
           <div className="flex space-x-4 mt-3">
             <Link href="https://facebook.com">
               <FaFacebookF className="hover:text-[#cbaf77] text-2xl" />
+            </Link>
+            <Link href="https://instagram.com">
+              <FaInstagram className="hover:text-[#cbaf77] text-2xl" />
             </Link>
           </div>
         </div>

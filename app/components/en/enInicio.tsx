@@ -6,10 +6,10 @@ const EnHomeSection: React.FC = () => {
     <div className="h-[30rem] p-5 flex items-center bg-bluebg">
       <div className="container mx-auto flex flex-col md:flex-row items-center justify-between">
         <div className="text-center md:text-left space-y-4 md:w-1/2">
-          <h2 className="text-5xl text-center md:text-5xl font-bold text-white leading-tight">
+          <h2 className="text-6xl text-center md:text-5xl font-bold text-black leading-tight">
             WHERE SMILE
           </h2>
-          <h2 className="text-4xl text-center md:text-4xl font-semibold text-white">
+          <h2 className="text-6xl text-center md:text-4xl font-semibold text-black">
             MEETS EXPERTISE
           </h2>
         </div>
