@@ -3,8 +3,8 @@ import React, { useState, useEffect } from "react";
 import Link from "next/link";
 import Image from "next/image";
 
-const Header: React.FC = () => {
-  const [idioma, setIdioma] = useState<"es" | "en" | "ger">("es");
+const DeHeader: React.FC = () => {
+  const [idioma, setIdioma] = useState<"es" | "en" | "ger">("ger");
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   useEffect(() => {
@@ -43,7 +43,7 @@ const Header: React.FC = () => {
                 href="/"
                 className="text-black font-bold uppercase text-md p-2 md:p-4 rounded-xl hover:text-white hover:bg-black transition-all delay-75"
               >
-                Inicio
+                Home
               </Link>
             </li>
             <li>
@@ -51,7 +51,7 @@ const Header: React.FC = () => {
                 href="/about"
                 className="text-black font-bold uppercase text-md p-2 md:p-4 rounded-xl hover:text-white hover:bg-black transition-all delay-75"
               >
-                Sobre Nosotros
+                Über uns
               </Link>
             </li>
             <li>
@@ -59,7 +59,7 @@ const Header: React.FC = () => {
                 href="/services"
                 className="text-black font-bold uppercase text-md p-2 md:p-4 rounded-xl hover:text-white hover:bg-black transition-all delay-75"
               >
-                Servicios
+                Unsere Dienstleistungen
               </Link>
             </li>
             <li>
@@ -67,7 +67,7 @@ const Header: React.FC = () => {
                 href="/contact"
                 className="text-black font-bold uppercase text-md p-2 md:p-4 rounded-xl hover:text-white hover:bg-black transition-all delay-75"
               >
-                Contáctanos
+                Kontakt
               </Link>
             </li>
           </ul>
@@ -107,7 +107,7 @@ const Header: React.FC = () => {
                   className="text-black font-bold uppercase text-xl"
                   onClick={() => setIsMenuOpen(false)}
                 >
-                  Inicio
+                  Home
                 </Link>
               </li>
               <li>
@@ -116,7 +116,7 @@ const Header: React.FC = () => {
                   className="text-black font-bold uppercase text-xl"
                   onClick={() => setIsMenuOpen(false)}
                 >
-                  Sobre Nosotros
+                  Über uns
                 </Link>
               </li>
               <li>
@@ -125,7 +125,7 @@ const Header: React.FC = () => {
                   className="text-black font-bold uppercase text-xl"
                   onClick={() => setIsMenuOpen(false)}
                 >
-                  Servicios
+                  Unsere Dienstleistungen
                 </Link>
               </li>
               <li>
@@ -134,7 +134,7 @@ const Header: React.FC = () => {
                   className="text-black font-bold uppercase text-xl"
                   onClick={() => setIsMenuOpen(false)}
                 >
-                  Contáctanos
+                  Kontakt
                 </Link>
               </li>
             </ul>
@@ -171,4 +171,4 @@ const Header: React.FC = () => {
   );
 };
 
-export default Header;
+export default DeHeader;

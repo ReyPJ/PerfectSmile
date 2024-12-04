@@ -4,7 +4,7 @@ import Link from "next/link";
 import Image from "next/image";
 
 const EnHeader: React.FC = () => {
-  const [idioma, setIdioma] = useState<"es" | "en" | "ger">("es");
+  const [idioma, setIdioma] = useState<"es" | "en" | "ger">("en");
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   useEffect(() => {
@@ -153,6 +153,12 @@ const EnHeader: React.FC = () => {
               className={`font-bold text-lg ${idioma === "en" ? "underline" : ""}`}
             >
               🇺🇸 English
+            </button>
+            <button
+              onClick={() => handleIdiomaChange("ger")}
+              className={`font-bold ${idioma === "ger" ? "underline" : ""}`}
+            >
+              🇩🇪 Deutsch
             </button>
           </div>
 
