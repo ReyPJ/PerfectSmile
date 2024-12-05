@@ -27,10 +27,10 @@ const EnAboutSection: React.FC = () => {
           precision, making us a trusted partner in your orthodontic practice.
         </p>
 
-        <div className="flex flex-col items-center py-20 gap-8">
+        <div className="flex flex-col lg:flex-row justify-center py-20 gap-8 lg:gap-32">
           {/* Primer miembro del equipo */}
-          <div className="flex flex-col items-center bg-bluebg p-12 rounded-lg shadow-lg w-full md:w-1/2">
-            <div className="mb-4 w-[500px]">
+          <div className="flex flex-col items-center bg-bluebg rounded-lg shadow-lg">
+            <div className="mb-4 lg:w-[500px] w-auto">
               <Image
                 src="/DiegoAraya.jpg"
                 alt="Dentista"
@@ -39,12 +39,12 @@ const EnAboutSection: React.FC = () => {
                 className="rounded w-full"
               />
             </div>
-            <div className="flex flex-col justify-center text-center text-black space-y-2">
+            <div className="flex flex-col justify-center text-center text-black pt-4 pb-10 space-y-2 min-h-[150px]">
               <h3 className="text-2xl uppercase font-bold">Diego Araya</h3>
               <h3 className="text-xl font-bold">
                 Location: Wichita, Kansas, United States.
               </h3>
-              <h4 className="text-md text-start">
+              <h4 className="text-md max-w-xs text-start">
                 - Former Clinical Protocol Specialist at Invisalign: providing
                 assistance to doctors worldwide.
                 <br />- Former 3D Dental Treatment Designer (treatment
@@ -54,7 +54,7 @@ const EnAboutSection: React.FC = () => {
           </div>
 
           {/* Segundo miembro del equipo */}
-          <div className="flex flex-col items-center bg-orangebg p-12 rounded-lg shadow-lg text-white w-full md:w-1/2">
+          <div className="flex flex-col items-center bg-orangebg p-12 rounded-lg shadow-lg text-white">
             <div className="mb-4">
               {/* 
               <Image
@@ -66,12 +66,12 @@ const EnAboutSection: React.FC = () => {
               />
               */}
             </div>
-            <div className="flex flex-col justify-center text-center text-white space-y-2">
+            <div className="flex flex-col justify-center text-center text-white space-y-2 min-h-[150px]">
               <h3 className="text-2xl uppercase font-bold">Stefanie Francke</h3>
               <h3 className="text-xl font-bold">
                 Location: Cologne Area, NRW, Germany.
               </h3>
-              <h4 className="text-md text-start">
+              <h4 className="text-md max-w-xs text-start">
                 - Dental Technician
                 <br /> - Former Technical and Clinical Specialist in aligners,
                 therapeutic appliances, surgical guides, implant planning

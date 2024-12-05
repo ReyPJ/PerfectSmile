@@ -29,7 +29,7 @@ const AboutSection: React.FC = () => {
         <div className="flex flex-col lg:flex-row justify-center py-20 gap-8 lg:gap-32">
           {/* Primer miembro del equipo */}
           <div className="flex flex-col items-center bg-bluebg rounded-lg shadow-lg">
-            <div className="mb-4 w-[500px]">
+            <div className="mb-4 lg:w-[500px] w-auto">
               <Image
                 src="/DiegoAraya.jpg"
                 alt="Dentista"

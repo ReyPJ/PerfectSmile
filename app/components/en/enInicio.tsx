@@ -19,7 +19,7 @@ const EnHomeSection: React.FC = () => {
             alt="image"
             width={600}
             height={600}
-            className="w-fit h-auto max-w-sm md:max-w-md lg:max-w-full"
+            className="sm:w-fit h-auto w-auto md:max-w-md lg:max-w-full"
           />
         </div>
       </div>

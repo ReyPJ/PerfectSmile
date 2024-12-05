@@ -10,7 +10,7 @@ const HomeSection: React.FC = () => {
           <h2 className="text-3xl md:text-5xl font-bold text-white leading-tight">
             DONDE LAS SONRISAS
           </h2>
-          <h2 className="text-2xl md:text-4xl text-left font-semibold text-white">
+          <h2 className="text-2xl md:text-4xl text-center font-semibold text-white">
             SE UNEN A LA ATENCIÓN DE EXPERTOS
           </h2>
         </div>
@@ -22,7 +22,7 @@ const HomeSection: React.FC = () => {
             alt="image"
             width={600}
             height={600}
-            className="w-fit h-auto max-w-sm md:max-w-md lg:max-w-full"
+            className="sm:w-fit h-auto w-auto md:max-w-md lg:max-w-full"
           />
         </div>
       </div>
