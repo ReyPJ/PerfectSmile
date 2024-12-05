@@ -29,13 +29,13 @@ const AboutSection: React.FC = () => {
         <div className="flex flex-col lg:flex-row justify-center py-20 gap-8 lg:gap-32">
           {/* Primer miembro del equipo */}
           <div className="flex flex-col items-center bg-bluebg rounded-lg shadow-lg">
-            <div className="mb-4">
+            <div className="mb-4 w-[500px]">
               <Image
                 src="/DiegoAraya.jpg"
                 alt="Dentista"
-                width={400}
-                height={400}
-                className="rounded w-fit"
+                width={800}
+                height={800}
+                className="rounded w-full"
               />
             </div>
             <div className="flex flex-col justify-center text-center text-black pt-4 pb-10 space-y-2 min-h-[150px]">

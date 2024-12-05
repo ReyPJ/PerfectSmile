@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 
 const EnAboutSection: React.FC = () => {
   return (
@@ -29,16 +30,14 @@ const EnAboutSection: React.FC = () => {
         <div className="flex flex-col items-center py-20 gap-8">
           {/* Primer miembro del equipo */}
           <div className="flex flex-col items-center bg-bluebg p-12 rounded-lg shadow-lg w-full md:w-1/2">
-            <div className="mb-4">
-              {/* 
+            <div className="mb-4 w-[500px]">
               <Image
-                src="/"
+                src="/DiegoAraya.jpg"
                 alt="Dentista"
-                width={270}
-                height={200}
-                className="rounded"
+                width={800}
+                height={800}
+                className="rounded w-full"
               />
-              */}
             </div>
             <div className="flex flex-col justify-center text-center text-black space-y-2">
               <h3 className="text-2xl uppercase font-bold">Diego Araya</h3>
