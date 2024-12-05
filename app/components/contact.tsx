@@ -1,7 +1,26 @@
+"use client";
 import React from "react";
 import { FaWhatsapp, FaFacebook, FaInstagram } from "react-icons/fa";
+import countriesData from "@/app/data/countries.json";
+
+interface Country {
+  alpha2: string;
+  [key: string]: string;
+}
+
+//@ts-expect-error: I dont know
+const countries: Country[] = countriesData;
 
 const ContactSection: React.FC = () => {
+  const idioma = "es";
+
+  const GetCountryOpts = (): { code: string; name: string }[] => {
+    return countries.map((country: Country) => ({
+      code: country.alpha2,
+      name: country[idioma],
+    }));
+  };
+
   return (
     <div className="h-full p-5 bg-gray-100 shadow-lg rounded">
       <div className="flex gap-10 flex-col md:flex-row mx-10 justify-between items-start">
@@ -33,8 +52,11 @@ const ContactSection: React.FC = () => {
               <option value="" disabled>
                 Selecciona tu país
               </option>
-              <option value="us">Estados Unidos</option>
-              <option value="de">Alemania</option>
+              {GetCountryOpts().map((country) => (
+                <option key={country.code} value={country.code}>
+                  {country.name}
+                </option>
+              ))}
             </select>
             <textarea
               placeholder="¿Cómo te podemos ayudar?"
