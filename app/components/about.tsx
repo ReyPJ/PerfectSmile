@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 
 const AboutSection: React.FC = () => {
   return (
@@ -25,21 +26,19 @@ const AboutSection: React.FC = () => {
           en tu práctica ortodóntica.
         </p>
 
-        <div className="flex flex-col justify-center py-20 gap-8">
+        <div className="flex flex-col lg:flex-row justify-center py-20 gap-8 lg:gap-32">
           {/* Primer miembro del equipo */}
-          <div className="flex flex-col items-center bg-bluebg p-12 rounded-lg shadow-lg">
+          <div className="flex flex-col items-center bg-bluebg rounded-lg shadow-lg">
             <div className="mb-4">
-              {/* 
               <Image
-                src="/"
+                src="/DiegoAraya.jpg"
                 alt="Dentista"
-                width={270}
-                height={200}
-                className="rounded"
+                width={400}
+                height={400}
+                className="rounded w-fit"
               />
-              */}
             </div>
-            <div className="flex flex-col justify-center text-center text-black space-y-2 min-h-[150px]">
+            <div className="flex flex-col justify-center text-center text-black pt-4 pb-10 space-y-2 min-h-[150px]">
               <h3 className="text-2xl uppercase font-bold">Diego Araya</h3>
               <h3 className="text-xl font-bold">
                 Ubicación: Wichita, Kansas, Estados Unidos.

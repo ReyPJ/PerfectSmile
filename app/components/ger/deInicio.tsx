@@ -18,7 +18,7 @@ const DeHomeSection: React.FC = () => {
             alt="image"
             width={600}
             height={600}
-            className="w-full h-auto max-w-sm md:max-w-md lg:max-w-full"
+            className="w-fit h-auto max-w-sm md:max-w-md lg:max-w-full"
           />
         </div>
       </div>

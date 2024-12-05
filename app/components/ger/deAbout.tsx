@@ -27,7 +27,8 @@ const DeAboutSection: React.FC = () => {
           Vertrauen und Präzision zu beraten, was uns zu einem zuverlässigen
           Partner in Ihrer kieferorthopädischen Praxis.
         </p>
-        <div className="flex flex-Fast 10 Jahre Erfahrung mit Alignerncol items-center py-20 gap-8">
+                
+        <div className="flex flex-col justify-center py-20 gap-8">
           {/* Primer miembro del equipo */}
           <div className="flex flex-col items-center bg-bluebg p-12 rounded-lg shadow-lg w-full md:w-1/2">
             <div className="mb-4">

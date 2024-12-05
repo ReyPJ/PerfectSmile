@@ -78,7 +78,7 @@ const DeContactSection: React.FC = () => {
             {/* Tarjetas de contacto */}
             <div className="flex items-center p-4 bg-white shadow-lg rounded-lg hover:shadow-xl transition">
               <FaWhatsapp className="text-[#25D366] text-3xl mr-4" />
-              <h3 className="text-lg">+1-(316)-550-3196</h3>
+              <h3 className="text-lg">+1-(316)-550-3195</h3>
             </div>
             <div className="flex items-center p-4 bg-white shadow-lg rounded-lg hover:shadow-xl transition">
               <FaFacebook className="text-[#3b5998] text-3xl mr-4" />
