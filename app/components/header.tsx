@@ -2,10 +2,12 @@
 import React, { useState, useEffect } from "react";
 import Link from "next/link";
 import Image from "next/image";
+import { usePathname } from "next/navigation";
 
 const Header: React.FC = () => {
   const [idioma, setIdioma] = useState<"es" | "en" | "ger">("es");
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const pathname = usePathname();
 
   useEffect(() => {
     const savedIdioma = localStorage.getItem("idioma");
@@ -41,7 +43,11 @@ const Header: React.FC = () => {
             <li>
               <Link
                 href="/"
-                className="text-black font-bold uppercase text-md p-2 md:p-4 rounded-xl hover:text-white hover:bg-black transition-all delay-75"
+                className={`text-black font-bold uppercase text-md p-2 md:p-4 rounded-xl transition-all delay-75
+                  ${pathname === "/" 
+                    ? "bg-black text-white"
+                    : "hover:text-white hover:bg-black"}  
+                 `}
               >
                 Inicio
               </Link>
@@ -49,7 +55,11 @@ const Header: React.FC = () => {
             <li>
               <Link
                 href="/about"
-                className="text-black font-bold uppercase text-md p-2 md:p-4 rounded-xl hover:text-white hover:bg-black transition-all delay-75"
+                className={`text-black font-bold uppercase text-md p-2 md:p-4 rounded-xl transition-all delay-75
+                  ${pathname === "/about"
+                    ? "bg-black text-white"
+                    : "hover:text-white hover:bg-black"}
+                  `}
               >
                 Sobre Nosotros
               </Link>
@@ -57,7 +67,11 @@ const Header: React.FC = () => {
             <li>
               <Link
                 href="/services"
-                className="text-black font-bold uppercase text-md p-2 md:p-4 rounded-xl hover:text-white hover:bg-black transition-all delay-75"
+                className={`text-black font-bold uppercase text-md p-2 md:p-4 rounded-xl transition-all delay-75
+                  ${pathname === "/services"
+                    ? "bg-black text-white"
+                    : "hover:text-white hover:bg-black"}
+                  `}
               >
                 Servicios
               </Link>
@@ -65,7 +79,11 @@ const Header: React.FC = () => {
             <li>
               <Link
                 href="/contact"
-                className="text-black font-bold uppercase text-md p-2 md:p-4 rounded-xl hover:text-white hover:bg-black transition-all delay-75"
+                className={`text-black font-bold uppercase text-md p-2 md:p-4 rounded-xl transition-all delay-75
+                  ${pathname === "/contact"
+                    ? "bg-black text-white"
+                    : "hover:text-white hover:bg-black"}
+                  `}
               >
                 Contáctanos
               </Link>

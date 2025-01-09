@@ -2,10 +2,12 @@
 import React, { useState, useEffect } from "react";
 import Link from "next/link";
 import Image from "next/image";
+import { usePathname } from "next/navigation"
 
 const DeHeader: React.FC = () => {
   const [idioma, setIdioma] = useState<"es" | "en" | "ger">("ger");
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const pathname = usePathname();
 
   useEffect(() => {
     const savedIdioma = localStorage.getItem("idioma");
@@ -42,6 +44,9 @@ const DeHeader: React.FC = () => {
               <Link
                 href="/"
                 className="text-black font-bold uppercase text-md p-2 md:p-4 rounded-xl hover:text-white hover:bg-black transition-all delay-75"
+		className={`text-black font-bold uppercase text-md p-2 md:p-4 rounded-xl transition-all delay-75
+		${pathname == "/" ? "bg-black text-white" : "hover:bg-black hover:text-white"}
+		`}
               >
                 Home
               </Link>

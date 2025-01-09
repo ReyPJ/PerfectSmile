@@ -2,10 +2,12 @@
 import React, { useState, useEffect } from "react";
 import Link from "next/link";
 import Image from "next/image";
+import { usePathname } from "next/navigation"; 
 
 const EnHeader: React.FC = () => {
   const [idioma, setIdioma] = useState<"es" | "en" | "ger">("en");
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const pathname = usePathname();
 
   useEffect(() => {
     const savedIdioma = localStorage.getItem("idioma");
@@ -41,7 +43,11 @@ const EnHeader: React.FC = () => {
             <li>
               <Link
                 href="/"
-                className="text-black font-bold uppercase text-md p-4 rounded-xl hover:text-white hover:bg-black transition-all delay-75"
+                className={`text-black font-bold uppercase text-md p-4 rounded-xl transition-all delay-75
+                  ${pathname === "/" 
+                    ? "bg-black text-white" 
+                    : "hover:text-white hover:bg-black"
+                  }`}
               >
                 Home
               </Link>
@@ -49,7 +55,12 @@ const EnHeader: React.FC = () => {
             <li>
               <Link
                 href="/about"
-                className="text-black font-bold uppercase text-md p-4 rounded-xl hover:text-white hover:bg-black transition-all delay-75"
+                className={`text-black font-bold uppercase text-md p-4 rounded-xl transition-all delay-75
+                  ${pathname === "/about"
+                    ? "bg-black text-white"
+                    : "hover:text-white hover:bg-black"
+                  }
+                `}
               >
                 About us
               </Link>
@@ -57,7 +68,12 @@ const EnHeader: React.FC = () => {
             <li>
               <Link
                 href="/services"
-                className="text-black font-bold uppercase text-md p-4 rounded-xl hover:text-white hover:bg-black transition-all delay-75"
+                className={`text-black font-bold uppercase text-md p-4 rounded-xl transition-all delay-75
+                  ${pathname === "/services"
+                    ? "bg-black text-white"
+                    : "hover:text-white hover:bg-black"
+                  }
+                `}
               >
                 Services
               </Link>
@@ -65,7 +81,12 @@ const EnHeader: React.FC = () => {
             <li>
               <Link
                 href="/contact"
-                className="text-black font-bold uppercase text-md p-4 rounded-xl hover:text-white hover:bg-black transition-all delay-75"
+                className={`text-black font-bold uppercase text-md p-4 rounded-xl transition-all delay-75
+                  ${pathname === "/contact"
+                    ? "bg-black text-white"
+                    : "hover:text-white hover:bg-black"
+                  }
+                `}
               >
                 Contact us
               </Link>
