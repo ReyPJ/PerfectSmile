@@ -67,19 +67,6 @@ const EnHeader: React.FC = () => {
             </li>
             <li>
               <Link
-                href="/services"
-                className={`text-black font-bold uppercase text-md p-4 rounded-xl transition-all delay-75
-                  ${pathname === "/services"
-                    ? "bg-black text-white"
-                    : "hover:text-white hover:bg-black"
-                  }
-                `}
-              >
-                Services
-              </Link>
-            </li>
-            <li>
-              <Link
                 href="/contact"
                 className={`text-black font-bold uppercase text-md p-4 rounded-xl transition-all delay-75
                   ${pathname === "/contact"
@@ -138,15 +125,6 @@ const EnHeader: React.FC = () => {
                   onClick={() => setIsMenuOpen(false)}
                 >
                   About us
-                </Link>
-              </li>
-              <li>
-                <Link
-                  href="/services"
-                  className="text-black font-bold uppercase text-xl"
-                  onClick={() => setIsMenuOpen(false)}
-                >
-                  Services
                 </Link>
               </li>
               <li>

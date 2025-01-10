@@ -23,8 +23,8 @@ const Header: React.FC = () => {
   };
 
   return (
-    <header className="bg-white p-6 relative z-10">
-      <div className="flex items-center justify-between max-w-screen-xl mx-auto">
+    <header className="bg-white p-6 relative z-10 shadow-md">
+      <div className="flex items-center justify-between max-w-screen-xl mx-auto ">
         <Image src={"/cuadrada.png"} alt="Logo" width={200} height={200} />
 
         {/* Hamburger Menu Icon */}
@@ -62,18 +62,6 @@ const Header: React.FC = () => {
                   `}
               >
                 Sobre Nosotros
-              </Link>
-            </li>
-            <li>
-              <Link
-                href="/services"
-                className={`text-black font-bold uppercase text-md p-2 md:p-4 rounded-xl transition-all delay-75
-                  ${pathname === "/services"
-                    ? "bg-black text-white"
-                    : "hover:text-white hover:bg-black"}
-                  `}
-              >
-                Servicios
               </Link>
             </li>
             <li>

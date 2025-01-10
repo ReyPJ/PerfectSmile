@@ -2,7 +2,7 @@
 import React, { useState, useEffect } from "react";
 import Link from "next/link";
 import Image from "next/image";
-import { usePathname } from "next/navigation"
+import { usePathname } from "next/navigation";
 
 const DeHeader: React.FC = () => {
   const [idioma, setIdioma] = useState<"es" | "en" | "ger">("ger");
@@ -43,10 +43,11 @@ const DeHeader: React.FC = () => {
             <li>
               <Link
                 href="/"
-                className="text-black font-bold uppercase text-md p-2 md:p-4 rounded-xl hover:text-white hover:bg-black transition-all delay-75"
-		className={`text-black font-bold uppercase text-md p-2 md:p-4 rounded-xl transition-all delay-75
-		${pathname == "/" ? "bg-black text-white" : "hover:bg-black hover:text-white"}
-		`}
+                className={`text-black font-bold uppercase text-md p-2 md:p-4 rounded-xl transition-all delay-75
+                  ${pathname === "/"
+                    ? "text-white bg-black"
+                    : "hover:text-white hover:bg-black"
+                  }`}
               >
                 Home
               </Link>
@@ -54,23 +55,23 @@ const DeHeader: React.FC = () => {
             <li>
               <Link
                 href="/about"
-                className="text-black font-bold uppercase text-md p-2 md:p-4 rounded-xl hover:text-white hover:bg-black transition-all delay-75"
+                className={`text-black font-bold uppercase text-md p-2 md:p-4 rounded-xl transition-all delay-75
+                  ${pathname === "/about"
+                    ? "text-white bg-black"
+                    : "hover:text-white hover:bg-black"
+                  }`}
               >
                 Über uns
               </Link>
             </li>
             <li>
               <Link
-                href="/services"
-                className="text-black font-bold uppercase text-md p-2 md:p-4 rounded-xl hover:text-white hover:bg-black transition-all delay-75"
-              >
-                Unsere Dienstleistungen
-              </Link>
-            </li>
-            <li>
-              <Link
                 href="/contact"
-                className="text-black font-bold uppercase text-md p-2 md:p-4 rounded-xl hover:text-white hover:bg-black transition-all delay-75"
+                className={`text-black font-bold uppercase text-md p-2 md:p-4 rounded-xl transition-all delay-75
+                  ${pathname === "/contact"
+                    ? "text-white bg-black"
+                    : "hover:text-white hover:bg-black"
+                  }`}
               >
                 Kontakt
               </Link>
@@ -122,15 +123,6 @@ const DeHeader: React.FC = () => {
                   onClick={() => setIsMenuOpen(false)}
                 >
                   Über uns
-                </Link>
-              </li>
-              <li>
-                <Link
-                  href="/services"
-                  className="text-black font-bold uppercase text-xl"
-                  onClick={() => setIsMenuOpen(false)}
-                >
-                  Unsere Dienstleistungen
                 </Link>
               </li>
               <li>
