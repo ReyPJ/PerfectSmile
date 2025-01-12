@@ -114,7 +114,7 @@ const EnContactSection: React.FC = () => {
                 Select your country
               </option>
               {GetCountryOpts().map((country) => (
-                <option key={country.code} value={country.code}>
+                <option key={country.code} value={country.name}>
                   {country.name}
                 </option>
               ))}

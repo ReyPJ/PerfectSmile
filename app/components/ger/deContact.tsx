@@ -114,7 +114,7 @@ const DeContactSection: React.FC = () => {
                 Wählen Sie Ihr Land
               </option>
               {GetCountryOpts().map((country) => (
-                <option key={country.code} value={country.code}>
+                <option key={country.code} value={country.name}>
                   {country.name}
                 </option>
               ))}
