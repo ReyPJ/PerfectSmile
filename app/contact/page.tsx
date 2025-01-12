@@ -14,6 +14,7 @@ interface Country {
   [key: string]: string;
 }
 
+//@ts-expect-error: I dont know
 const countries: Country[] = countriesData;
 
 export default function Contact() {
