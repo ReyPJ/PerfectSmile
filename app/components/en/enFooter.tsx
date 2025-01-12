@@ -31,11 +31,6 @@ const EnFooter: React.FC = () => {
               </Link>
             </li>
             <li>
-              <Link href="/services" className="hover:text-[#cbaf77]">
-                Services
-              </Link>
-            </li>
-            <li>
               <Link href="/contact" className="hover:text-[#cbaf77]">
                 Contact us
               </Link>

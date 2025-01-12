@@ -127,15 +127,6 @@ const Header: React.FC = () => {
               </li>
               <li>
                 <Link
-                  href="/services"
-                  className="text-black font-bold uppercase text-xl"
-                  onClick={() => setIsMenuOpen(false)}
-                >
-                  Servicios
-                </Link>
-              </li>
-              <li>
-                <Link
                   href="/contact"
                   className="text-black font-bold uppercase text-xl"
                   onClick={() => setIsMenuOpen(false)}

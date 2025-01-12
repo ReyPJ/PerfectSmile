@@ -9,7 +9,7 @@ const EnAboutSection: React.FC = () => {
             Our Team
         </h2>
 
-        <h3 className="text-2xl uppercase md:text-3xl font-bold text-black">
+        <h3 className="text-2xl text-center uppercase md:text-3xl font-bold text-black">
             Almost 10 Years of Expertise in Aligners
         </h3>
 
@@ -42,7 +42,7 @@ const EnAboutSection: React.FC = () => {
             <div className="flex flex-col justify-center text-center text-black pt-4 pb-10 space-y-2 min-h-[150px]">
               <h3 className="text-2xl uppercase font-bold">Diego Araya</h3>
               <h3 className="text-xl font-bold">
-                  Location: Wichita, Kansas, United States.
+                  Location: Kansas City, United States.
               </h3>
               <h4 className="text-md max-w-xs text-start">
                 - Former Clinical Protocol Specialist at Invisalign: providing

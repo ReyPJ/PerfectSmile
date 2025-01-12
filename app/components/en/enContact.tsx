@@ -1,6 +1,6 @@
 "use client";
 import React, { useState } from "react";
-import { FaWhatsapp, FaFacebook, FaInstagram } from "react-icons/fa";
+import { FaWhatsapp, FaFacebook, FaInstagram, FaEnvelope } from "react-icons/fa";
 import countriesData from "@/app/data/countries.json";
 
 interface Country {
@@ -153,11 +153,15 @@ const EnContactSection: React.FC = () => {
             </div>
             <div className="flex items-center p-4 bg-white shadow-lg rounded-lg hover:shadow-xl transition">
               <FaFacebook className="text-[#3b5998] text-3xl mr-4" />
-              <h3 className="text-lg">@SomeFacebook</h3>
+              <h3 className="text-lg">Perfect Smile Experts</h3>
             </div>
             <div className="flex items-center p-4 bg-white shadow-lg rounded-lg hover:shadow-xl transition">
               <FaInstagram className="text-[#E1306C] text-3xl mr-4" />
               <h3 className="text-lg">@perfectsmileexperts</h3>
+            </div>
+            <div className="flex items-center gap-2 p-4 bg-white shadow-lg rounded-lg hover:shadow-xl transition">
+              <FaEnvelope className="text-gray-500 text-2xl" />
+              <span>perfectsmileexperts@gmail.com</span>
             </div>
           </div>
         </div>
