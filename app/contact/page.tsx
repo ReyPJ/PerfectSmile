@@ -200,11 +200,11 @@ export default function Contact() {
                   </div>
                   <div className="flex items-center gap-3 text-lg font-medium text-gray-700">
                     <FaInstagram className="text-pink-500 text-2xl" />
-                    <span>@perfectsmile</span>
+                    <span>@perfectsmileexperts</span>
                   </div>
                   <div className="flex items-center gap-3 text-lg font-medium text-gray-700">
                     <FaFacebook className="text-blue-500 text-2xl" />
-                    <span>@perfectsmile</span>
+                    <span>Perfect Smile Experts</span>
                   </div>
                   <div className="flex items-center gap-3 text-lg font-medium text-gray-700">
                     <FaEnvelope className="text-gray-500 text-2xl" />
@@ -324,11 +324,11 @@ export default function Contact() {
                   </div>
                   <div className="flex items-center gap-3 text-lg font-medium text-gray-700">
                     <FaInstagram className="text-pink-500 text-2xl" />
-                    <span>@perfectsmile</span>
+                    <span>@perfectsmileexperts</span>
                   </div>
                   <div className="flex items-center gap-3 text-lg font-medium text-gray-700">
                     <FaFacebook className="text-blue-500 text-2xl" />
-                    <span>@perfectsmile</span>
+                    <span>Perfect Smile Experts</span>
                   </div>
                   <div className="flex items-center gap-3 text-lg font-medium text-gray-700">
                     <FaEnvelope className="text-gray-500 text-2xl" />
@@ -448,11 +448,11 @@ export default function Contact() {
                   </div>
                   <div className="flex items-center gap-3 text-lg font-medium text-gray-700">
                     <FaInstagram className="text-pink-500 text-2xl" />
-                    <span>@perfectsmile</span>
+                    <span>@perfectsmileexperts</span>
                   </div>
                   <div className="flex items-center gap-3 text-lg font-medium text-gray-700">
                     <FaFacebook className="text-blue-500 text-2xl" />
-                    <span>@perfectsmile</span>
+                    <span>Perfect Smile Experts</span>
                   </div>
                   <div className="flex items-center gap-3 text-lg font-medium text-gray-700">
                     <FaEnvelope className="text-gray-500 text-2xl" />
