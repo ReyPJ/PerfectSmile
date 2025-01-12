@@ -28,7 +28,7 @@ const AboutSection: React.FC = () => {
 
         <div className="flex flex-col lg:flex-row justify-center py-20 gap-8 lg:gap-32">
           {/* Primer miembro del equipo */}
-          <div className="flex flex-col items-center bg-bluebg rounded-lg shadow-lg">
+          <div className="flex flex-col items-center pb-5 bg-bluebg rounded-lg shadow-lg">
             <div className="mb-4 lg:w-[500px] w-auto">
               <Image
                 src="/DiegoAraya.jpg"
@@ -53,17 +53,15 @@ const AboutSection: React.FC = () => {
           </div>
 
           {/* Segundo miembro del equipo */}
-          <div className="flex flex-col items-center bg-orangebg p-12 rounded-lg shadow-lg text-white">
-            <div className="mb-4">
-              {/* 
+          <div className="flex flex-col items-center pb-5 bg-orangebg rounded-lg shadow-lg">
+            <div className="mb-4 lg:w-[500px] w-auto">
               <Image
-                src="/"
+                src="/steff.jpg"
                 alt="Dentista"
-                width={270}
-                height={200}
-                className="rounded"
+                width={800}
+                height={800}
+                className="rounded w-full"
               />
-              */}
             </div>
             <div className="flex flex-col justify-center text-center text-white space-y-2 min-h-[150px]">
               <h3 className="text-2xl uppercase font-bold">Stefanie Francke</h3>
