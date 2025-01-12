@@ -39,12 +39,12 @@ export default function About() {
                 Nuestro Equipo
               </h2>
 
-              <h3 className="text-2xl uppercase md:text-3xl font-bold text-black">
+              <h3 className="text-2xl text-center uppercase md:text-3xl font-bold text-black">
                 Casi 10 años de experiencia en alineadores
               </h3>
 
               {/* Descripción de equipo */}
-              <p className="max-w-2xl text-justify text-lg text-black mt-6">
+              <p className="max-w-2xl p-4 text-justify text-lg text-black mt-6">
                 Con casi 10 años de experiencia en la industria de los alineadores,
                 hemos construido una sólida reputación por ofrecer asesoría experta y
                 planificación de tratamientos para ortodoncistas de todo el mundo.
@@ -134,12 +134,12 @@ export default function About() {
                   Our Team
               </h2>
 
-              <h3 className="text-2xl uppercase md:text-3xl font-bold text-black">
+              <h3 className="text-2xl text-center uppercase md:text-3xl font-bold text-black">
                   Almost 10 Years of Expertise in Aligners
               </h3>
 
               {/* Descripción de equipo */}
-              <p className="max-w-2xl text-justify text-lg text-black mt-6">
+              <p className="max-w-2xl text-justify p-4 text-lg text-black mt-6">
                   With almost 10 years of experience in the aligner industry, we have
                   built a solid reputation for providing expert consultation and
                   treatment planning for orthodontists worldwide. Our deep knowledge and
@@ -227,12 +227,12 @@ export default function About() {
                   Unser Team
               </h2>
 
-              <h3 className="text-2xl uppercase md:text-3xl font-bold text-black">
+              <h3 className="text-2xl text-center uppercase md:text-3xl font-bold text-black">
                   Fast 10 Jahre Erfahrung mit Alignern
               </h3>
 
               {/* Descripción de equipo */}
-              <p className="max-w-2xl text-justify text-lg text-black mt-6">
+              <p className="max-w-2xl text-justify p-4 text-lg text-black mt-6">
                   Mit fast 10 Jahren Erfahrung in der Aligner-Industrie haben wir uns
                   einen soliden Ruf in der Beratung und Behandlungsplanung für
                   Kieferorthopäden weltweit aufgebaut. Unser fundiertes Wissen und
