@@ -71,7 +71,7 @@ export default function About() {
                   <div className="flex flex-col justify-center text-center text-black pt-4 pb-10 space-y-2 min-h-[150px]">
                     <h3 className="text-2xl uppercase font-bold">Diego Araya</h3>
                     <h3 className="text-xl font-bold">
-                      Ubicación: Wichita, Kansas, Estados Unidos.
+                      Ubicación: Kansas City, Estados Unidos.
                     </h3>
                     <h4 className="text-md max-w-xs text-start">
                       - Ex Especialista en Protocolo Clínico en Invisalign: brindando
@@ -167,7 +167,7 @@ export default function About() {
                   <div className="flex flex-col justify-center text-center text-black pt-4 pb-10 space-y-2 min-h-[150px]">
                     <h3 className="text-2xl uppercase font-bold">Diego Araya</h3>
                     <h3 className="text-xl font-bold">
-                        Location: Wichita, Kansas, United States.
+                        Location: Kansas City, United States.
                     </h3>
                     <h4 className="text-md max-w-xs text-start">
                       - Former Clinical Protocol Specialist at Invisalign: providing
@@ -262,7 +262,7 @@ export default function About() {
                   <div className="flex flex-col justify-center text-center text-black pt-4 pb-10 space-y-2 min-h-[150px]">
                     <h3 className="text-2xl uppercase font-bold">Diego Araya</h3>
                     <h3 className="text-xl font-bold">
-                        Location: Wichita, Kansas, United States.
+                        Location: Kansas City, United States.
                     </h3>
                     <h4 className="text-md max-w-xs text-start">
                       - Former Clinical Protocol Specialist at Invisalign: providing
